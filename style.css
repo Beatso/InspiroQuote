@@ -1,0 +1,9 @@
+img {
+	position: absolute;
+	inset: 0;
+	margin: auto;
+	border-radius: 3%;
+}
+
+@media (orientation: landscape) { img { height: 90%; } }
+@media (orientation: portrait) { img { width: 90%; } }
